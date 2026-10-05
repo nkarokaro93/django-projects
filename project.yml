@@ -1,0 +1,6 @@
+# django-projects — Nadia Karokaro
+services:
+  app:
+    image: alpine:latest
+    command: ["echo", "ping from nkarokaro93"]
+    restart: unless-stopped
